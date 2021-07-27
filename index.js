@@ -33,7 +33,7 @@ function Calculate2(){
     const outputSUM = document.getElementById('outputSUM2');
     outputFN.innerHTML = "\\( F(n) = \\textcolor{red}{ \\text{Error} } \\)";
     outputPASCAL.innerHTML = "";
-    outputSUM = "\\( \\text{sum} = \\textcolor{red}{ \\text{Error} } \\)";
+    outputSUM.innerHTML = "\\( \\text{sum} = \\textcolor{red}{ \\text{Error} } \\)";
     LoadMathJax();
 
     let n = inputN.value;

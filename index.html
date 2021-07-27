@@ -72,7 +72,7 @@
                 \[ F(n) = \sum_{k=0}^{ \lfloor \frac{n-1}{2} \rfloor } \frac{ (n-k-1)! }{ k!(n-2k-1)! } \]
                 <br>
                 함수의 결과가 궁금하다면, 여기서 계산해보실 수도 있습니다.<br>
-                \( n = \) <input type="number" min="1" id="inputN" onchange="Calculate()"><br>
+                \( n = \) <input type="number" min="1" id="inputN" onkeyup="Calculate()" onmouseup="Calculate()"><br>
                 <span id="outputFN">\( F(n) = \textcolor{red}{ \text{Error} } \)</span>
             </p>
         </div>
@@ -183,7 +183,7 @@
                 이 글에서는 증명은 생략하겠습니다.<br>
                 <br>
                 밑에서 실험해보실 수 있습니다.<br>
-                \( n = \) <input type="number" min="1" id="inputN2" onchange="Calculate2()"><br>
+                \( n = \) <input type="number" min="1" id="inputN2" onkeyup="Calculate2()" onmouseup="Calculate2()"><br>
                 <span id="outputFN2">\( F(n) = \textcolor{red}{ \text{Error} } \)</span><br>
                 <br>
                 파스칼의 삼각형<br>
